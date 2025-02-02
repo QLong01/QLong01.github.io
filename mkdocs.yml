@@ -6,11 +6,12 @@ site_author: jack_hui
 site_description: jack_hui的个人网站
 
 nav:
-  - Home: index.md
-  - Section:
-    - section/index.md 
-    - Page 1: section/page-1.md
-    - Page n: section/page-n.md
+  - 首页: 
+    - index.md
+    - 网站搭建: methods.md
+  - 工具学习:
+    - tools/index.md 
+    - Markdown: tools/markdown.md
 theme:
   name: material
   palette:
@@ -56,7 +57,7 @@ theme:
     - content.action.edit
   language: zh #中文提示
   icon: 
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
 
 # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
@@ -140,6 +141,16 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
   - footnotes
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
 extra_javascript:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
