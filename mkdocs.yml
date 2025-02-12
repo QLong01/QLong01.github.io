@@ -12,6 +12,7 @@ nav:
   - 工具学习:
     - tools/index.md 
     - Markdown: tools/markdown.md
+    - Linux: tools/linux.md
 theme:
   name: material
   palette:

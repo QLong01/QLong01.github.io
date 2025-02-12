@@ -4,7 +4,7 @@
 
 > Author: Jack_hui
 
-> 依照<https://thu-ios.github.io/tutorials/lecture/git.html>上的讲义，跟着打一遍很快能上手
+> 依照<https://thu-ios.github.io/tutorials/lecture/markdown.html>上的讲义，跟着打一遍很快能上手
 ## **具体语法**
 ### **标题**
 `1`~`6`个`#`加一个空格再加上标题的名称
