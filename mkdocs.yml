@@ -13,6 +13,7 @@ nav:
     - tools/index.md 
     - Markdown: tools/markdown.md
     - Linux: tools/linux.md
+    - Git: tools/git.md
 theme:
   name: material
   palette:
