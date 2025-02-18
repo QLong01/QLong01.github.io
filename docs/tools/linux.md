@@ -137,3 +137,4 @@ grep "[0-9]" error.log
 退出一个shell(终端)
 
 
+

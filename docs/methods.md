@@ -111,7 +111,7 @@ git commit -m "Your commit message"(可随便命名，主要用于版本控制�
 git push
 ```
 更新完后访问网址链接即可
-## 例子
+<!-- ## 例子
 !!! example
 
     === "Unordered List"
@@ -144,4 +144,4 @@ git push
 
         1. Sed sagittis eleifend rutrum
         2. Donec vitae suscipit est
-        3. Nulla tempor lobortis orci
+        3. Nulla tempor lobortis orci -->
