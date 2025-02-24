@@ -17,6 +17,7 @@ nav:
   - 技术:
     - skills/index.md
     - Compile: skills/compile.md
+    - 自动微分: skills/autoDif.md
 theme:
   name: material
   palette:
@@ -70,8 +71,8 @@ edit_uri: edit/main/docs/
 # [top-right corner]
 # [添加 GitHub 仓库]
 # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
-repo_url: https://github.com/Longlove-Hui/blogger
-repo_name: Longlove-Hui.github.io
+repo_url: https://github.com/QLong01
+repo_name: QLong01.github.io
 
 # [bottom-left corner]
 # [版权说明]
@@ -85,15 +86,15 @@ extra:
   # 搜索图标：https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
   # name 会在鼠标悬浮时提示
   social: # icons
-    - name: GitHub | Longlove-Hui
+    - name: GitHub | QLong01
       icon: fontawesome/brands/github
-      link: https://github.com/Longlove-Hui
+      link: https://github.com/QLong01
     - name: Bilibili | 试以平常心
       icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/629622860
     - name: 打赏支持
       icon: fontawesome/solid/mug-saucer
-      link: https://github.com/Longlove-Hui/blogger/ME/support/
+      link: https://github.com/QLong01/ME/support/
 
 # [Extensions]
 plugins:
@@ -156,13 +157,13 @@ markdown_extensions:
 extra_javascript:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - mkdocs/javascripts/katex.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
   # [自定义 css]
   # 不使用底部的翻页
   - mkdocs/css/no-footer.css
