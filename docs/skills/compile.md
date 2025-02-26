@@ -69,7 +69,7 @@ LLVM下编译过程的模块化更加明显，编译前端，编译优化以及�
 #include<stdio.h>
 # define HELLOWPRLD "hello world\n"
 int main(){
-    printf(HELLOWORLD);
+    printf(HELLOWORLD);//
 }
 ```
 ### **GCC编译源程序**
