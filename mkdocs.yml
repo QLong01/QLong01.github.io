@@ -18,6 +18,7 @@ nav:
     - skills/index.md
     - Compile: skills/compile.md
     - 自动微分: skills/autoDif.md
+    - 强化学习: skills/rs.md
 theme:
   name: material
   palette:
