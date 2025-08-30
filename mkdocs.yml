@@ -19,6 +19,7 @@ nav:
     - Compile: skills/compile.md
     - 自动微分: skills/autoDif.md
     - 强化学习: skills/rs.md
+    - deepseek微调示例: skills/llm.md
 theme:
   name: material
   palette:

@@ -29,7 +29,7 @@ f(x_1,x_2) = log(x_1) + x_1*x_2 - sin(x_2)
 $$
 
 对应计算图如下：
-![](../photo/computeGraph.png)
+![](./photo/autoDif/computeGraph.png)
 
 ### **前向微分**
 要计算$\frac{\partial f}{\partial x_1}$，从前往后依次计算：
