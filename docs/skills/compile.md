@@ -1,6 +1,6 @@
 # **编译框架学习笔记**
 
-> Writed on 250217
+> Writted on 250217
 
 > Author: Jack_hui
 
