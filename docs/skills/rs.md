@@ -139,9 +139,7 @@ $$
 
 对于累计奖励$R(\tau^{n})$，有不同的计算方式，一种就是简单的将每个时间步中的$R(\tau^{n})$看成定值，即该条轨迹得到的总奖励；**REINFORCE算法**对此进行优化，其单独计算每个时间步奖励，公式如下：
 
-$
-R(\tau^{n}_{t}) = \sum_{t'=t}^{T} \gamma^{t' - t} r_{t'} 
-$
+$R(\tau^{n}_{t}) = \sum_{t'=t}^{T} \gamma^{t' - t} r_{t'} $
 ：动作 $a_t$ 之后的回报；
 
 对于$\nabla \log p_{\theta}(a_{t}^{n} \mid s_{t}^{n})$的计算方式，具体而言，首先通过网络前向传播得到动作 $a_t^n$ 的概率（或概率密度），计算其自然对数 $\log \pi_\theta(a_t^n \mid s_t^n)$，随后通过反向传播算法，对该对数概率关于网络参数 $\theta$ 求梯度 $\nabla_\theta \log \pi_\theta(a_t^n \mid s_t^n)$。
